@@ -1,11 +1,10 @@
 # MIST-4600-Group-Project-2
-UGA MIST 4610 Spring 2026 Group Project 2 Repository
+UGA MIST 4610 Spring 2026 Group Project Repository
 
 TEAM MEMBERS:
-
-Andrew Yancey, - https://github.com/AndyY-64
-Kristina Lam, - https://github.com/sybiesuga
-Bryan Yang, - https://github.com/BryanYangUGA
-Shivani Menon, - https://github.com/shivanimenon
-Andrew Pruitt, - https://github.com/andrewpruitt033
+1. Andrew Yancey, - https://github.com/AndyY-64
+2. Kristina Lam, - https://github.com/sybiesuga
+3. Bryan Yang, - https://github.com/BryanYangUGA
+4. Shivani Menon, - https://github.com/shivanimenon 
+5. Andrew Pruitt, - https://github.com/andrewpruitt033
 
