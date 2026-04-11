@@ -49,11 +49,13 @@ Crime Count per Ward: A simple COUNT measure of CCN (the unique incident identif
 Analysis and Results:
 
 Question 1: Crime Distribution Across D.C. Wards
+
 Visualization: Stacked bar chart — Wards (x-axis) vs. Count of Incidents (y-axis), color-encoded by Crime Category (Violent vs. Property).
 Findings:
 Ward 2 recorded the highest total incident count, driven predominantly by property crime, likely reflecting its dense commercial and tourist activity (downtown/Penn Quarter area). Wards 7 and 8, located in the eastern and southeastern parts of D.C., show a disproportionately higher share of violent crimes relative to their total incident count, pointing to structural disparities in those communities. Ward 3 (upper northwest) had the lowest total crime volume overall.
 
 Question 2: Weapon Use by Shift and Offense Type
+
 Visualization: Heat map — Offense Type (rows) vs. Shift (columns), with color intensity representing the proportion of incidents involving a weapon (GUN or KNIFE).
 Findings:
 Gun involvement was highest during the MIDNIGHT shift, particularly for ROBBERY and ASSAULT W/DANGEROUS WEAPON offenses, suggesting that violent armed crime peaks in late-night hours. Homicides showed elevated weapon involvement across all three shifts, but with a notable concentration at MIDNIGHT. Property crimes (THEFT/OTHER, THEFT F/AUTO) had near-zero weapon involvement across all shifts, confirming they are predominantly non-confrontational offenses.
