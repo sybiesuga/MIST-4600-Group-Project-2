@@ -19,6 +19,7 @@ The dataset captures every reported crime incident across all 8 wards of Washing
 Two Questions:
 
 -How does crime type distribution vary across D.C.'s 8 wardsand 
+
 -which wards face the highest burden of violent vs. property crime?
 
 Why it's important: 
