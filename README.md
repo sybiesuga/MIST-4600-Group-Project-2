@@ -22,6 +22,7 @@ Two Questions:
 
 -which wards face the highest burden of violent vs. property crime?
 
+
 Why it's important: 
 
 Washington D.C. is divided into 8 wards with significant differences in demographics, income levels, and population density. There are significant social and policy implications to understanding how the distribution of the type of crimes across the 8 wards has. This information can help individuals make informed decisions regarding the safety of the community and also help the Metropolitan Police Department and city officals distribute resources and officers more efficiently. The difference between violent crimes (robbery, assult, homicide) and property crimes (theft, burglary) between wards indicates if there are systematic injustices that are related to the more general economic and social factors. 
