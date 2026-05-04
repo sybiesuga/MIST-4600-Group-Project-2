@@ -46,9 +46,7 @@ Crime Category (Calculated Field): This was a custom dimension that was created 
 Violent Crime: HOMICIDE, ROBBERY, ASSAULT W/DANGEROUS WEAPON, SEX ABUSE
 Property Crime: THEFT/OTHER, THEFT F/AUTO, MOTOR VEHICLE THEFT, BURGLARY, ARSON
 
-This allows for an easier viewing of the different types of crimes and what was more frequent without needing any familiarity with the dataset. 
-
-% of Weapons Used (Calculated Field/Binary Field):  A boolean calculated field was derived from the METHOD column which measure the proportion of incidents that involed a weapon which in this case is either GUN or KNIFE (1) or no weapon was present (0) and is grouped by offense type and shift. This formula returns a number between 0 and 1 that is shown as a percentage. 
+This allows for an easier viewing of the different types of crimes and what was more frequent without needing any familiarity with the dataset.  
 
 Crime Count per Ward: A simple COUNT measure of CCN was used as the primary metric for incident volume, aggregated at the WARD level.
 
@@ -57,7 +55,8 @@ Analysis and Results:
 
 Question 1: Crime Distribution Across D.C. Wards
 
-Visualization: Stacked bar chart — Wards (x-axis) vs. Number of Incidents (y-axis), color-encoded by Crime Category (Violent vs. Property).
+Visualization: Choropleth map: Washington D.C. divided into 8 wards, color-encoded by total crime count per ward, where darker shades indicate a higher number of reported incidents and lighter shades indicate fewer. Both violent crimes (homicide, robbery, assault with a dangerous weapon, sex abuse) and property crimes (theft/other, theft from auto, motor vehicle theft, burglary, arson) are displayed simultaneously.
+
 Findings:
 Based on the map, Ward 2 recorded the highest total incident driven mainly by property crime. This makes sense as Ward 2 was located in downtown of D.C. where it has a dense population with tourist attractions.  Wards 7 and 8, located in the eastern and southeastern parts of D.C., shows that there is a deeper structural disparities in those regions that could be contributed to a multitude of factors such as lower median income or limited access to protection. Ward 2 has the lowest overall crime rate as it's located in the upper northwest of D.C. and considered one of the safest and most affluent residential areas. Which means Ward 3 has a higher socioeconomic status and more protected. 
 
