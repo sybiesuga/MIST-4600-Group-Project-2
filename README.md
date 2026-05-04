@@ -30,10 +30,9 @@ Washington D.C. is divided into 8 wards with significant differences in demograp
 <img width="1512" height="946" alt="Screenshot 2026-04-28 at 2 38 17 PM" src="https://github.com/user-attachments/assets/f5c2a408-5406-422d-a905-f3d44253a644" />
 
 
-Does the time of day (shift) influence the type of method used in crimes, and are certain offense categories more likely to involve weapons during specific shifts?
-Why it's important:
+Ward 3 and Ward 8: Comparing time of day to type of offenses used and Neighborhood Concentration:
 
-Being able to see if there is a correlation between time-of-day and weapons used in crime is important for understanding when and how residents are the most at risk. For the safety of the public, knowing which weapons such as if knife crimes are more frequent during day shifts vs night shifts or if gun-related crimes increases during the evening or midnight shifts allows law enforements to strategically deploy their armed response units strategically and can inform the general public on what time or area to avoid and provide safety precautions. This can also help businesses that opens late or in areas that are considered high crimes to implement more security and protections. 
+Washington D.C.'s wards experience different levels and types of crime. Some areas having a higher violent crime rates while other having more property-related crimes. Knowing the differences is crucial for identifying similar patterns and risks. By comparing Ward 3 and Ward 8, it highlights how specific offense types contribute to the overall crime burden in each area. Property crimes such as theft and theft from auto appear more concentrated in Ward 3, while Ward 8 having higher counts in offenses like motor vehicle theft, assault with a dangerous weapon, and robbery. It shows that crime is not only unevenly distributed, but also having differences in severity and impact. Knowing which area experience higher levels of violent crime vs. property crime can help law enforcement to focus their resources more effectively between the Wards.
 
 <img width="1048" height="609" alt="PNG image" src="https://github.com/user-attachments/assets/0248b692-bbcc-48e7-9b84-1a515a1bc8c2" />
 
@@ -62,12 +61,9 @@ Visualization: Stacked bar chart — Wards (x-axis) vs. Number of Incidents (y-a
 Findings:
 Based on the bar chart, Ward 2 recorded the highest total incident driven mainly by property crime. This makes sense as Ward 2 was located in downtonw of D.C. where it has a dense population with tourist attractions.  Wards 7 and 8, located in the eastern and southeastern parts of D.C., shows that there is a deeper structural disparities in those regions that could be contributed to a multitude of factors such as lower median income or limited access to protection. Ward 2 has the lowest overall crime rate as it's located in the upper northwest of D.C. and considered one of the safest and most affluent residential areas. Which means Ward 3 has a higher socioeconomic status and more protected. 
 
-Question 2: Weapon Use by Shift and Offense Type
+Question 2: Ward 3 and Ward 8: Comparing time of day to type of offenses used and Neighborhood Concentration
 
-Visualization: Heat map — Offense Type (rows) vs. Shift (columns), with a scale of red representing the proportion of incidents involving a weapon (GUN or KNIFE).
-Findings:
-Across all shifts, weapon involement has the highest amonst violent crime categories. Acrross all three shifts, Assult W/Dangerous Weapon consistently display high weapon involvement with 81.6% DAY, 79.4% EVENING and 84.9% for MIDNIGHT. The most notable pattern was homicide, with 89% of weapon involvement occuring only during the MIDNIGHT shift and no activity during the DAY or EVENING shifts which can be concluded that majority of homicide activity happens late at night and almost always involes a weapon. Additionally, robbery shows a distinct shift-based trend rising from 46.2% during DAY to 55.9% at MIDNIGHT which suggest that armed robbery is more prevelent late at night but is still frequent during daylight. Nearly no weapons were used in property crimes such as Theft/Other (.04%-1.6%) and Theft F/Auto (.3%-1.4%) during all shifts indicates that there are primarily non-confrontational offenses. Since arson is considered as an indirect offense, it recorded 0% weapon involement across all shifts. 
-
+Visualization: Side-by-side bar chart — Offense Type (y-axis) vs. Number of Incidents (x-axis), color-coded by Ward (Ward 3 vs. Ward 8). Based on the bar chart, Ward 3 is primarily property crimes like theft and theft from auto, which aligns with its residential characteristics. On the other hand, Ward 8 shows higher numbers in violent offenses such as assault with a dangerous weapon and robbery. This indicates that Ward 8 faces a greater burden of violent crime while Ward 3 is more affected by non-violent and property related crimes. These differences suggest socioeconomic disparities and highlights the need for target approach to fix the different types of crime across wards.
 References
 
 District of Columbia Metropolitan Police Department. (2025). Crime Incidents 2025. Retrieved from https://catalog.data.gov/dataset
