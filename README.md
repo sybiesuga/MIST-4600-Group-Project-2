@@ -30,7 +30,7 @@ Washington D.C. is divided into 8 wards with significant differences in demograp
 <img width="1512" height="946" alt="Screenshot 2026-04-28 at 2 38 17 PM" src="https://github.com/user-attachments/assets/f5c2a408-5406-422d-a905-f3d44253a644" />
 
 
-Ward 3 and Ward 8: Comparing time of day to type of offenses used and Neighborhood Concentration:
+Ward 3 and Ward 8: Comparing Time of Day to Type of Offenses Used and Neighborhood Concentration:
 
 Washington D.C.'s wards experience different levels and types of crime. Some areas having a higher violent crime rates while other having more property-related crimes. Knowing the differences is crucial for identifying similar patterns and risks. By comparing Ward 3 and Ward 8, it highlights how specific offense types contribute to the overall crime burden in each area. Property crimes such as theft and theft from auto appear more concentrated in Ward 3, while Ward 8 having higher counts in offenses like motor vehicle theft, assault with a dangerous weapon, and robbery. It shows that crime is not only unevenly distributed, but also having differences in severity and impact. Knowing which area experience higher levels of violent crime vs. property crime can help law enforcement to focus their resources more effectively between the Wards.
 
@@ -59,15 +59,16 @@ Question 1: Crime Distribution Across D.C. Wards
 
 Visualization: Stacked bar chart — Wards (x-axis) vs. Number of Incidents (y-axis), color-encoded by Crime Category (Violent vs. Property).
 Findings:
-Based on the bar chart, Ward 2 recorded the highest total incident driven mainly by property crime. This makes sense as Ward 2 was located in downtonw of D.C. where it has a dense population with tourist attractions.  Wards 7 and 8, located in the eastern and southeastern parts of D.C., shows that there is a deeper structural disparities in those regions that could be contributed to a multitude of factors such as lower median income or limited access to protection. Ward 2 has the lowest overall crime rate as it's located in the upper northwest of D.C. and considered one of the safest and most affluent residential areas. Which means Ward 3 has a higher socioeconomic status and more protected. 
+Based on the map, Ward 2 recorded the highest total incident driven mainly by property crime. This makes sense as Ward 2 was located in downtown of D.C. where it has a dense population with tourist attractions.  Wards 7 and 8, located in the eastern and southeastern parts of D.C., shows that there is a deeper structural disparities in those regions that could be contributed to a multitude of factors such as lower median income or limited access to protection. Ward 2 has the lowest overall crime rate as it's located in the upper northwest of D.C. and considered one of the safest and most affluent residential areas. Which means Ward 3 has a higher socioeconomic status and more protected. 
 
-Question 2: Ward 3 and Ward 8: Comparing time of day to type of offenses used and Neighborhood Concentration
+Question 2: Ward 3 and Ward 8: Comparing Time of Day to Type of Offenses Used and Neighborhood Concentration:
 
-Visualization: Side-by-side bar chart — Offense Type (y-axis) vs. Number of Incidents (x-axis), color-coded by Ward (Ward 3 vs. Ward 8). Based on the bar chart, Ward 3 is primarily property crimes like theft and theft from auto, which aligns with its residential characteristics. On the other hand, Ward 8 shows higher numbers in violent offenses such as assault with a dangerous weapon and robbery. This indicates that Ward 8 faces a greater burden of violent crime while Ward 3 is more affected by non-violent and property related crimes. These differences suggest socioeconomic disparities and highlights the need for target approach to fix the different types of crime across wards.
-References
+Visualization: Side-by-side bar chart — Offense Type (y-axis) vs. Number of Incidents (x-axis), color-coded by Ward (Ward 3 vs. Ward 8). Based on the bar chart, wealth and opportunity play a major role in the disparity in crime between Ward 3 and Ward 8. Ward 3 is the wealthiest ward in Washington, DC, with high incomes, low unemployment, and a majority of residents holding college degrees. In contrast, Ward 8 is the poorest ward, with significantly higher unemployment rates, around 30% of residents living in poverty, and far fewer educational and economic opportunities. Research consistently demonstrates that both violent and property crime increase when people lack steady employment and income. This also explains the types of crime seen in each ward: Ward 8's concentrated poverty drives violent offenses like robbery and assault, while Ward 3's relative wealth attracts opportunistic property crimes like theft and theft from auto.
 
 District of Columbia Metropolitan Police Department. (2025). Crime Incidents 2025. Retrieved from https://catalog.data.gov/dataset
 
 District of Columbia Office of Planning. (n.d.). What's My Ward? Retrieved from https://planning.dc.gov/whatsmyward
+
+Learning Life. (2018, April 4). DC rich and poor: A tale of two wards. Retrieved from https://learninglife.info/wards3and8/
 
 The Tableau packaged workbook containing all visualizations and data connections is available in this repository: Group_Project_2.twbx
