@@ -16,11 +16,20 @@ Date Range: January 1, 2025 – January 1, 2026
 
 The dataset captures every reported crime incident across all 8 wards of Washington D.C. for the full year 2025. Offense types range from property crimes (theft, burglary, motor vehicle theft) to violent crimes (robbery, assault, homicide, sex abuse, arson). 
 
+CCN: Criminal Complaint Number a unique identifier assigned to each reported incident.
+OFFENSE: The type of crime reported (e.g., THEFT/OTHER, ROBBERY, HOMICIDE, ASSAULT W/DANGEROUS WEAPON).
+WARD: The ward number (1–8) indicating which district of D.C. the incident occurred in.
+METHOD: The method or weapon involved in the offense (e.g., GUN, KNIFE, OTHERS).
+SHIFT: The police shift during which the incident was reported (DAY, EVENING, or MIDNIGHT).
+REPORT_DAT: The date and time the incident was reported.
+BLOCK: The block-level location where the incident occurred.
+LATITUDE / LONGITUDE: Geographic coordinates of the incident.
+
 Two Questions:
 
--How does crime type distribution vary across D.C.'s 8 wardsand?
+- How does crime type distribution vary across D.C.'s 8 wards, and which wards face the highest burden of violent vs. property crime?
 
--which wards face the highest burden of violent vs. property crime?
+- How do Ward 3 and Ward 8 differ in the types of offenses committed, and what socioeconomic factors explain those differences?
 
 
 Why it's important: 
@@ -41,15 +50,12 @@ Manipulation Applied:
 
 The following manipulations and calculated fields were applied in Tableau:
 
-Crime Category (Calculated Field): This was a custom dimension that was created to group offenses to two categories:
+Crime Category (Calculated Field): A custom dimension was created to group offenses into two categories:
 
 Violent Crime: HOMICIDE, ROBBERY, ASSAULT W/DANGEROUS WEAPON, SEX ABUSE
 Property Crime: THEFT/OTHER, THEFT F/AUTO, MOTOR VEHICLE THEFT, BURGLARY, ARSON
 
-This allows for an easier viewing of the different types of crimes and what was more frequent without needing any familiarity with the dataset.  
-
 Crime Count per Ward: A simple COUNT measure of CCN was used as the primary metric for incident volume, aggregated at the WARD level.
-
 
 Analysis and Results:
 
@@ -58,11 +64,11 @@ Question 1: Crime Distribution Across D.C. Wards
 Visualization: Choropleth map: Washington D.C. divided into 8 wards, color-encoded by total crime count per ward, where darker shades indicate a higher number of reported incidents and lighter shades indicate fewer. Both violent crimes (homicide, robbery, assault with a dangerous weapon, sex abuse) and property crimes (theft/other, theft from auto, motor vehicle theft, burglary, arson) are displayed simultaneously.
 
 Findings:
-Based on the map, Ward 2 recorded the highest total incident driven mainly by property crime. This makes sense as Ward 2 was located in downtown of D.C. where it has a dense population with tourist attractions.  Wards 7 and 8, located in the eastern and southeastern parts of D.C., shows that there is a deeper structural disparities in those regions that could be contributed to a multitude of factors such as lower median income or limited access to protection. Ward 2 has the lowest overall crime rate as it's located in the upper northwest of D.C. and considered one of the safest and most affluent residential areas. Which means Ward 3 has a higher socioeconomic status and more protected. 
+Based on the map, Ward 2 recorded the highest total incident driven mainly by property crime. This makes sense as Ward 2 was located in downtown of D.C. where it has a dense population with tourist attractions.  Wards 7 and 8, located in the eastern and southeastern parts of D.C., shows that there is a deeper structural disparities in those regions that could be contributed to a multitude of factors such as lower median income or limited access to protection. Ward 3, located in the upper northwest of D.C., recorded the lowest overall crime rate and is considered one of the safest and most affluent residential areas in the city. 
 
 Question 2: Ward 3 and Ward 8: Comparing Time of Day to Type of Offenses Used and Neighborhood Concentration:
 
-Visualization: Side-by-side bar chart — Offense Type (y-axis) vs. Number of Incidents (x-axis), color-coded by Ward (Ward 3 vs. Ward 8). Based on the bar chart, wealth and opportunity play a major role in the disparity in crime between Ward 3 and Ward 8. Ward 3 is the wealthiest ward in Washington, DC, with high incomes, low unemployment, and a majority of residents holding college degrees. In contrast, Ward 8 is the poorest ward, with significantly higher unemployment rates, around 30% of residents living in poverty, and far fewer educational and economic opportunities. Research consistently demonstrates that both violent and property crime increase when people lack steady employment and income. This also explains the types of crime seen in each ward: Ward 8's concentrated poverty drives violent offenses like robbery and assault, while Ward 3's relative wealth attracts opportunistic property crimes like theft and theft from auto.
+Visualization: Side-by-side bar chart — Offense Type (y-axis) vs. Number of Incidents (x-axis), color-coded by Ward (Ward 3 vs. Ward 8). Based on the bar chart, wealth and opportunity play a major role in the disparity in crime between Ward 3 and Ward 8. Ward 3 is the wealthiest ward in Washington, DC, with high incomes, low unemployment, and a majority of residents holding college degrees. In contrast, Ward 8 is the poorest ward, with significantly higher unemployment rates, around 30% of residents living in poverty, and far fewer educational and economic opportunities. Research consistently demonstrates that both violent and property crime increase when people lack steady employment and income. This also explains the types of crime seen in each ward: Ward 8's concentrated poverty drives violent offenses like robbery and assault, while Ward 3's relative wealth attracts property crimes like theft and theft from auto.
 
 District of Columbia Metropolitan Police Department. (2025). Crime Incidents 2025. Retrieved from https://catalog.data.gov/dataset
 
