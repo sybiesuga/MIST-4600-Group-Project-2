@@ -1,4 +1,4 @@
-# MIST-4600-Group-Project-2
+# MIST-4600-Group-Project-2 Group 1
 UGA MIST 4610 Spring 2026 Group Project Repository
 
 TEAM MEMBERS:
@@ -68,14 +68,14 @@ Analysis and Results:
 
 Question 1: Crime Distribution Across D.C. Wards
 
-Visualization: Choropleth map: Washington D.C. divided into 8 wards, color-encoded by total crime count per ward, where darker shades indicate a higher number of reported incidents and lighter shades indicate fewer. Both violent crimes (homicide, robbery, assault with a dangerous weapon, sex abuse) and property crimes (theft/other, theft from auto, motor vehicle theft, burglary, arson) are displayed simultaneously.
+Visualization: Choropleth map: Washington D.C. divided into 8 wards, color-encoded by total crime count per ward, where darker shades indicate a higher number of reported incidents and lighter shades indicate fewer. Both violent crimes (homicide, robbery, assault with a dangerous weapon, sex abuse) and property crimes (theft/other, theft from auto, motor vehicle theft, burglary, arson) are displayed simultaneously. A choropleth map was chosen because it most effectively communicates geographic variation in crime volume across D.C.'s 8 wards. A map allows the reader to immediately identify high and low crime areas spatially, which would not be as intuitive in a bar chart or table.
 
 Findings:
 Based on the map, Ward 2 recorded the highest total incident driven mainly by property crime. This makes sense as Ward 2 was located in downtown of D.C. where it has a dense population with tourist attractions.  Wards 7 and 8, located in the eastern and southeastern parts of D.C., shows that there is a deeper structural disparities in those regions that could be contributed to a multitude of factors such as lower median income or limited access to protection. Ward 3, located in the upper northwest of D.C., recorded the lowest overall crime rate and is considered one of the safest and most affluent residential areas in the city. 
 
 Question 2: Ward 3 and Ward 8: Comparing Time of Day to Type of Offenses Used and Neighborhood Concentration:
 
-Visualization: Side-by-side bar chart — Offense Type (y-axis) vs. Number of Incidents (x-axis), color-coded by Ward (Ward 3 vs. Ward 8). 
+Visualization: Side-by-side bar chart — Offense Type (y-axis) vs. Number of Incidents (x-axis), color-coded by Ward (Ward 3 vs. Ward 8). A side-by-side bar chart was chosen because it allows for a direct visual comparison of offense type frequencies between two specific wards. Placing Ward 3 and Ward 8 bars adjacent to each other for each offense type makes it easy to spot which ward is higher in each crime category, which a pie chart or table would make harder to see at a glance.
 
 Based on the bar chart, wealth and opportunity play a major role in the disparity in crime between Ward 3 and Ward 8. Ward 3 is the wealthiest ward in Washington, DC, with high incomes, low unemployment, and a majority of residents holding college degrees. In contrast, Ward 8 is the poorest ward, with significantly higher unemployment rates, around 30% of residents living in poverty, and far fewer educational and economic opportunities. Research consistently demonstrates that both violent and property crime increase when people lack steady employment and income. This also explains the types of crime seen in each ward: Ward 8's concentrated poverty drives violent offenses like robbery and assault, while Ward 3's relative wealth attracts property crimes like theft and theft from auto.
 
