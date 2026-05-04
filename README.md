@@ -35,7 +35,8 @@ Why it's important:
 
 Being able to see if there is a correlation between time-of-day and weapons used in crime is important for understanding when and how residents are the most at risk. For the safety of the public, knowing which weapons such as if knife crimes are more frequent during day shifts vs night shifts or if gun-related crimes increases during the evening or midnight shifts allows law enforements to strategically deploy their armed response units strategically and can inform the general public on what time or area to avoid and provide safety precautions. This can also help businesses that opens late or in areas that are considered high crimes to implement more security and protections. 
 
-><img width="1005" height="304" alt="Screenshot 2026-04-10 at 8 43 05 PM" src="https://github.com/user-attachments/assets/d32043e9-95f1-4f2e-a112-44559f3a9b3f" />
+<img width="1048" height="609" alt="PNG image" src="https://github.com/user-attachments/assets/0248b692-bbcc-48e7-9b84-1a515a1bc8c2" />
+
 
 Manipulation Applied:
 
