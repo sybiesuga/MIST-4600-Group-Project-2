@@ -56,11 +56,6 @@ Manipulation Applied:
 
 The following manipulations and calculated fields were applied in Tableau:
 
-Crime Category (Calculated Field): A custom dimension was created to group offenses into two categories:
-
-Violent Crime: HOMICIDE, ROBBERY, ASSAULT W/DANGEROUS WEAPON, SEX ABUSE
-Property Crime: THEFT/OTHER, THEFT F/AUTO, MOTOR VEHICLE THEFT, BURGLARY, ARSON
-
 Crime Count per Ward: A simple COUNT measure of CCN was used as the primary metric for incident volume, aggregated at the WARD level.
 
 Analysis and Results:
