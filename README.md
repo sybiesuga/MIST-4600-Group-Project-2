@@ -41,8 +41,7 @@ Why it's important:
 
 Washington D.C. is divided into 8 wards with significant differences in demographics, income levels, and population density. There are significant social and policy implications to understanding how the distribution of the type of crimes across the 8 wards has. This information can help individuals make informed decisions regarding the safety of the community and also help the Metropolitan Police Department and city officals distribute resources and officers more efficiently. The difference between violent crimes (robbery, assult, homicide) and property crimes (theft, burglary) between wards indicates if there are systematic injustices that are related to the more general economic and social factors. 
 
-<img width="1512" height="946" alt="Screenshot 2026-04-28 at 2 38 17 PM" src="https://github.com/user-attachments/assets/f5c2a408-5406-422d-a905-f3d44253a644" />
-
+<img width="1506" height="942" alt="Screenshot 2026-05-04 at 9 52 15 PM" src="https://github.com/user-attachments/assets/e506d819-2298-4a3e-a114-aa260142e544" />
 
 Ward 3 and Ward 8: Comparing Time of Day to Type of Offenses Used and Neighborhood Concentration:
 
