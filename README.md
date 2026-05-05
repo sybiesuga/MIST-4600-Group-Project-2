@@ -48,7 +48,7 @@ Ward 3 and Ward 8: Comparing Time of Day to Type of Offenses Used and Neighborho
 
 Washington D.C.'s wards experience different levels and types of crime. Some areas having a higher violent crime rates while other having more property-related crimes. Knowing the differences is crucial for identifying similar patterns and risks. By comparing Ward 3 and Ward 8, it highlights how specific offense types contribute to the overall crime burden in each area. Property crimes such as theft and theft from auto appear more concentrated in Ward 3, while Ward 8 having higher counts in offenses like motor vehicle theft, assault with a dangerous weapon, and robbery. It shows that crime is not only unevenly distributed, but also having differences in severity and impact. Knowing which area experience higher levels of violent crime vs. property crime can help law enforcement to focus their resources more effectively between the Wards.
 
-<img width="1048" height="609" alt="PNG image" src="https://github.com/user-attachments/assets/0248b692-bbcc-48e7-9b84-1a515a1bc8c2" />
+<img width="1509" height="291" alt="PNG image" src="https://github.com/user-attachments/assets/6f94a886-c807-4363-bd2e-1b53fb64ae2a" />
 
 
 Manipulation Applied:
